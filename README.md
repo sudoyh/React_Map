@@ -14,44 +14,44 @@
 
 # Feature
 
-1. Interactive Map Display (Powered by OSM Tiles):  
+1. Interactive Map Display (Powered by OSM Tiles):<br>   
 <br> 
-This core feature involves rendering a world map using tiles provided by OpenStreetMap.  The application will dynamically load and display these tiles as the user navigates, ensuring a smooth and seamless experience.  Different tile layers could be offered, allowing the user to switch between various map styles.  The initial map view could be centered on a specific location, perhaps based on the user's geolocation or a default setting.  
-<br> 
-
-<br> 
+<p>
+This core feature involves rendering a world map using tiles provided by OpenStreetMap.<br>   The application will dynamically load and display these tiles as the user navigates, ensuring a smooth and seamless experience.  <br> Different tile layers could be offered, allowing the user to switch between various map styles.  <br> The initial map view could be centered on a specific location, perhaps based on the user's geolocation or a default setting.  
+</p>
+<br>
+<br>
 
 2. Zoom and Pan Functionality (Intuitive Map Exploration): <br>  
-Users will have full control over how they explore the map.  Standard mouse interactions (clicking and dragging to pan, scrolling to zoom) will be supported.  The application will provide smooth transitions between zoom levels and during panning, ensuring a fluid and responsive user experience.  Zoom controls (buttons or a slider) could be included for users who prefer a more traditional interface.  
+<p>
+Users will have full control over how they explore the map.<br>   Standard mouse interactions (clicking and dragging to pan, scrolling to zoom) will be supported.<br>   The application will provide smooth transitions between zoom levels and during panning, ensuring a fluid and responsive user experience. <br>  Zoom controls (buttons or a slider) could be included for users who prefer a more traditional interface.  
+</p>
+<br> 
 <br> 
 
-<br> 
-
-
-3. Customizable Map Layers (Visualizing Data on the Map):   
-<br> 
+3. Customizable Map Layers (Visualizing Data on the Map): <br>
+<p> 
 This feature allows for the addition and customization of various layers on top of the base map.  These layers can represent different types of data or features.  Examples include:
-  - Markers: Icons or custom images placed on the map to represent specific points of interest (e.g., alrams, events). Clicking on a marker could display a pop-up with detailed information about that location.
-  - Lines: Polylines drawn on the map to represent routes, boundaries, or connections between locations. These lines could be styled with different colors, widths, and opacities.
-  - Shapes (Polygons): Areas enclosed by lines, used to represent regions, parks, or other geographical areas. These shapes can be filled with color and have outlines.  
-  Clustering: Grouping markers together at higher zoom levels to prevent map clutter and improve performance. As the user zooms in, the clusters can break apart into individual markers.
-  - Data Integration (Connecting to External Data Sources):  The application will be capable of integrating data from external sources to enrich the map visualization.  Common data formats like GeoJSON will be supported.  
+  <p>- Markers: Icons or custom images placed on the map to represent specific points of interest (e.g., alrams, events). Clicking on a marker could display a pop-up with detailed information about that location.</p>
+  <p>- Lines: Polylines drawn on the map to represent routes, boundaries, or connections between locations. These lines could be styled with different colors, widths, and opacities.</p>
+  <p>- Shapes (Polygons): Areas enclosed by lines, used to represent regions, parks, or other geographical areas. These shapes can be filled with color and have outlines. </p> 
+  <p>- Clustering: Grouping markers together at higher zoom levels to prevent map clutter and improve performance. As the user zooms in, the clusters can break apart into individual markers.</p>
+  <p>- Data Integration (Connecting to External Data Sources):  The application will be capable of integrating data from external sources to enrich the map visualization.  Common data formats like GeoJSON will be supported.</p>
 
+</p>
+<br> 
 <br> 
 
-<br> 
-
-
-
-4. User Interactions (Clicking for Information, Tooltips, etc.):   
-<br> 
+4. User Interactions (Clicking for Information, Tooltips, etc.):  <br>
+<p> 
 The application will provide interactive features that allow users to engage with the map.  This goes beyond simple zoom and pan.  Examples include:
   - Click Events: Clicking on a map feature (marker, line, shape) will trigger an action, such as displaying a pop-up window with detailed information about the feature.
  -  Hover Effects: Hovering the mouse over a map feature could highlight the feature or display a tooltip with basic information.
  - Tooltips: Small pop-up boxes that appear when the user hovers over a map feature, providing a brief description or summary.
   - Context Menus: Right-clicking on the map could bring up a context menu with options for performing actions, such as adding a new marker or measuring distance.
  
-
+</p>
+<br> 
 <br> 
 
 ---
