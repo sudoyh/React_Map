@@ -1,52 +1,114 @@
-# TypeScript Next.js example
+# React Map Application with OpenLayers and OpenStreetMap (OSM)
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
-123
-## Preview
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<div style="display: flex; justify-content: space-around;">
+  <img src="yhimages/1.png" alt="image 1" style="width: 200px; height: 250px;">
+  <img src="yhimages/2.png" alt="image 2" style="width: 200px; height: 250px;">
+  <img src="yhimages/3.png" alt="image 3"  style="width: 200px; height: 250px;">
+</div>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
 
-## Deploy your own
+---
+---
+<br>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+# Feature
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+1. Interactive Map Display (Powered by OSM Tiles):  
+<br> 
+This core feature involves rendering a world map using tiles provided by OpenStreetMap.  The application will dynamically load and display these tiles as the user navigates, ensuring a smooth and seamless experience.  Different tile layers could be offered, allowing the user to switch between various map styles.  The initial map view could be centered on a specific location, perhaps based on the user's geolocation or a default setting.  
+<br> 
 
-## How to use it?
+<br> 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+2. Zoom and Pan Functionality (Intuitive Map Exploration): <br>  
+Users will have full control over how they explore the map.  Standard mouse interactions (clicking and dragging to pan, scrolling to zoom) will be supported.  The application will provide smooth transitions between zoom levels and during panning, ensuring a fluid and responsive user experience.  Zoom controls (buttons or a slider) could be included for users who prefer a more traditional interface.  
+<br> 
+
+<br> 
+
+
+3. Customizable Map Layers (Visualizing Data on the Map):   
+<br> 
+This feature allows for the addition and customization of various layers on top of the base map.  These layers can represent different types of data or features.  Examples include:
+  - Markers: Icons or custom images placed on the map to represent specific points of interest (e.g., alrams, events). Clicking on a marker could display a pop-up with detailed information about that location.
+  - Lines: Polylines drawn on the map to represent routes, boundaries, or connections between locations. These lines could be styled with different colors, widths, and opacities.
+  - Shapes (Polygons): Areas enclosed by lines, used to represent regions, parks, or other geographical areas. These shapes can be filled with color and have outlines.  
+  Clustering: Grouping markers together at higher zoom levels to prevent map clutter and improve performance. As the user zooms in, the clusters can break apart into individual markers.
+  - Data Integration (Connecting to External Data Sources):  The application will be capable of integrating data from external sources to enrich the map visualization.  Common data formats like GeoJSON will be supported.  
+
+<br> 
+
+<br> 
+
+
+
+4. User Interactions (Clicking for Information, Tooltips, etc.):   
+<br> 
+The application will provide interactive features that allow users to engage with the map.  This goes beyond simple zoom and pan.  Examples include:
+  - Click Events: Clicking on a map feature (marker, line, shape) will trigger an action, such as displaying a pop-up window with detailed information about the feature.
+ -  Hover Effects: Hovering the mouse over a map feature could highlight the feature or display a tooltip with basic information.
+ - Tooltips: Small pop-up boxes that appear when the user hovers over a map feature, providing a brief description or summary.
+  - Context Menus: Right-clicking on the map could bring up a context menu with options for performing actions, such as adding a new marker or measuring distance.
+ 
+
+<br> 
+
+---
+---
+<br>
+
+# Core technologies
+
+Next.js & React - UI development with support for Server-Side Rendering (SSR) and Client-Side Rendering (CSR)<br>
+OpenLayers - Provides map rendering and interaction features<br>
+OpenStreetMap (OSM) - Utilizes open-source map data<br>
+
+---
+---
+<br>
+
+# Deployment
+
+## 1. Install
 
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
+git clone https://github.com/sudoyh/React_Map.git
+
+cd React_Map
+
+npm i init
+
+npm run dev
+
+
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
-
-```
-npm install --save-dev typescript
-```
-
-To enable TypeScript's features, we install the type declarations for React and Node.
-
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
-
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+<br>
 
 
-### Start ###
-1. npm i init
-2. npm run dev
+
+---
+---
+<br>
+
+# Full video link 
+
+Youtube : 
+
+
+[📺 Youtube Link : https://youtu.be/5BOkqBVh2zE ](https://youtu.be/5BOkqBVh2zE)
+
+---
+---
+<br>
+
+# Demo
+
+<img src="yhimages/gif.gif"  alt="gif">
+
+
+
+---
+---
