@@ -34,8 +34,6 @@ Users will have full control over how they explore the map.<br>   Standard mouse
 This feature allows for the addition and customization of various layers on top of the base map.  These layers can represent different types of data or features.  Examples include:
   <p>- Markers: Icons or custom images placed on the map to represent specific points of interest (e.g., alrams, events). Clicking on a marker could display a pop-up with detailed information about that location.</p>
   <p>- Lines: Polylines drawn on the map to represent routes, boundaries, or connections between locations. These lines could be styled with different colors, widths, and opacities.</p>
-  <p>- Shapes (Polygons): Areas enclosed by lines, used to represent regions, parks, or other geographical areas. These shapes can be filled with color and have outlines. </p> 
-  <p>- Clustering: Grouping markers together at higher zoom levels to prevent map clutter and improve performance. As the user zooms in, the clusters can break apart into individual markers.</p>
   <p>- Data Integration (Connecting to External Data Sources):  The application will be capable of integrating data from external sources to enrich the map visualization.  Common data formats like GeoJSON will be supported.</p>
 
 </p>
@@ -60,9 +58,10 @@ The application will provide interactive features that allow users to engage wit
 
 # Core technologies
 
-Next.js & React - UI development with support for Server-Side Rendering (SSR) and Client-Side Rendering (CSR)<br>
-OpenLayers - Provides map rendering and interaction features<br>
-OpenStreetMap (OSM) - Utilizes open-source map data<br>
+# Core technologies
+- **Next.js & React** - UI development with support for Server-Side Rendering (SSR) and Client-Side Rendering (CSR)<br>
+- **OpenLayers** - Provides map rendering and interaction features<br>
+- **OpenStreetMap (OSM)** - Utilizes open-source map data<br>
 
 ---
 ---
