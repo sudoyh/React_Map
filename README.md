@@ -17,14 +17,14 @@
 1. Interactive Map Display (Powered by OSM Tiles):<br>   
 <br> 
 <p>
-This core feature involves rendering a world map using tiles provided by OpenStreetMap.<br>   The application will dynamically load and display these tiles as the user navigates, ensuring a smooth and seamless experience.  <br> Different tile layers could be offered, allowing the user to switch between various map styles.  <br> The initial map view could be centered on a specific location, perhaps based on the user's geolocation or a default setting.  
+This core feature involves rendering a world map using tiles provided by OpenStreetMap.<br>   The application will dynamically load and display these tiles as the user navigates, ensuring a smooth and seamless experience.   <br> The initial map view could be centered on a specific location, perhaps based on the user's geolocation or a default setting.  
 </p>
 <br>
 <br>
 
 2. Zoom and Pan Functionality (Intuitive Map Exploration): <br>  
 <p>
-Users will have full control over how they explore the map.<br>   Standard mouse interactions (clicking and dragging to pan, scrolling to zoom) will be supported.<br>   The application will provide smooth transitions between zoom levels and during panning, ensuring a fluid and responsive user experience. <br>  Zoom controls (buttons or a slider) could be included for users who prefer a more traditional interface.  
+Users will have full control over how they explore the map.<br>   Standard mouse interactions (clicking and dragging to pan, scrolling to zoom) will be supported. <br>  Zoom controls (buttons or a slider) could be included for users who prefer a more traditional interface.  
 </p>
 <br> 
 <br> 
@@ -45,10 +45,10 @@ This feature allows for the addition and customization of various layers on top 
 4. User Interactions (Clicking for Information, Tooltips, etc.):  <br>
 <p> 
 The application will provide interactive features that allow users to engage with the map.  This goes beyond simple zoom and pan.  Examples include:
-  - Click Events: Clicking on a map feature (marker, line, shape) will trigger an action, such as displaying a pop-up window with detailed information about the feature.
- -  Hover Effects: Hovering the mouse over a map feature could highlight the feature or display a tooltip with basic information.
- - Tooltips: Small pop-up boxes that appear when the user hovers over a map feature, providing a brief description or summary.
-  - Context Menus: Right-clicking on the map could bring up a context menu with options for performing actions, such as adding a new marker or measuring distance.
+  <p>- Click Events: Clicking on a map feature (marker, line, shape) will trigger an action, such as displaying a pop-up window with detailed information about the feature.</p>
+  <p>-  Hover Effects: Hovering the mouse over a map feature could highlight the feature or display a tooltip with basic information.</p>
+  <p>- Tooltips: Small pop-up boxes that appear when the user hovers over a map feature, providing a brief description or summary.</p>
+  <p>- Context Menus: Right-clicking on the map could bring up a context menu with options for performing actions, such as adding a new marker or measuring distance.</p>
  
 </p>
 <br> 
