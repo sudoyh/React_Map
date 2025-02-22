@@ -46,8 +46,7 @@ The application will provide interactive features that allow users to engage wit
   <p>- Click Events: Clicking on a map feature (marker, line, shape) will trigger an action, such as displaying a pop-up window with detailed information about the feature.</p>
   <p>-  Hover Effects: Hovering the mouse over a map feature could highlight the feature or display a tooltip with basic information.</p>
   <p>- Tooltips: Small pop-up boxes that appear when the user hovers over a map feature, providing a brief description or summary.</p>
-  <p>- Context Menus: Right-clicking on the map could bring up a context menu with options for performing actions, such as adding a new marker or measuring distance.</p>
- 
+
 </p>
 <br> 
 <br> 
